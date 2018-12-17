@@ -14,15 +14,17 @@ MazeSquare::MazeSquare(squareType c)
 
 }
 
+MazeSquare::MazeSquare() {
+
+    generateObjectArray(OPEN);
+
+}
+
 void MazeSquare::printObjectArray() {
 
     for(int row = 0; row < 3; row++){
 
-        for(int column = 0; column < 3; column++){
-
-            cout << charArray[row][column];
-
-        }
+        cout << charArray[row];
 
         cout << endl;
 
@@ -35,11 +37,11 @@ void MazeSquare::generateObjectArray(squareType c){
     switch(c){
 
         case WALL: {
-
+            isOpen = false;
             for(int row = 0; row < 3; row++){
-                for(int col = 0; col < 3; col++){
-                    charArray[row][col] = 'X';
-                }
+
+                charArray[row] = "XXX";
+
             }
             break;
         }
@@ -47,39 +49,36 @@ void MazeSquare::generateObjectArray(squareType c){
         case OPEN: {
 
             for(int row = 0; row < 3; row++){
-                for(int col = 0; col < 3; col++){
-                    charArray[row][col] = '.';
-                }
+
+                charArray[row] = "...";
+
             }
             break;
 
         }
 
         case START: {
+            isStart = true;
+            charArray[0] = "...";
+            charArray[1] = ".S.";
+            charArray[2] = "...";
 
-            for(int row = 0; row < 3; row++){
-                for(int col = 0; col < 3; col++){
-                    charArray[row][col] = '.';
-                }
-            }
-            charArray[1][1] = 'S';
             break;
 
         }
 
         case FINISH:  {
+            isFinish = true;
+            charArray[0] = "...";
+            charArray[1] = ".F.";
+            charArray[2] = "...";
 
-            for(int row = 0; row < 3; row++){
-                for(int col = 0; col < 3; col++){
-                    charArray[row][col] = '.';
-                }
-            }
-            charArray[1][1] = 'F';
             break;
 
         }
 
-        //Default not needed since function passes in enum value.
+            //Default not needed since function passes in enum value.
 
     }
 }
+
