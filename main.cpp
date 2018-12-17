@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <sstream>
 #include "MazeSquare.h"
 #include "MazeGenerator.h"
 using namespace std;
