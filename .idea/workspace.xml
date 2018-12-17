@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b562f3ce-31d8-43f7-a9ea-b7f7cd289b73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/output.file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="b562f3ce-31d8-43f7-a9ea-b7f7cd289b73" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +128,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MazeProjectDownloadFile/Algorithms-Data-Structures-master/Algorithms-Data-Structures-master" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RunDashboard">
@@ -166,16 +164,15 @@
       <workItem from="1544748375481" duration="410000" />
       <workItem from="1544748845819" duration="79000" />
       <workItem from="1544938327477" duration="7646000" />
-      <workItem from="1544986440144" duration="28892000" />
+      <workItem from="1544986440144" duration="29607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53401000" />
+    <option name="totallyTimeSpent" value="54116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1800" y="74" width="1686" height="1230" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
