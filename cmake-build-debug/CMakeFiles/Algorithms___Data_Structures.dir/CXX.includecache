@@ -6,30 +6,10 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Finst/Desktop/Algorithms & Data Structures/MazeGenerator.cpp
-MazeGenerator.h
-C:/Users/Finst/Desktop/Algorithms & Data Structures/MazeGenerator.h
-MazeSquare.h
-C:/Users/Finst/Desktop/Algorithms & Data Structures/MazeSquare.h
-iostream
--
-string
--
-fstream
--
-
 C:/Users/Finst/Desktop/Algorithms & Data Structures/MazeGenerator.h
 MazeSquare.h
 C:/Users/Finst/Desktop/Algorithms & Data Structures/MazeSquare.h
 fstream
--
-
-C:/Users/Finst/Desktop/Algorithms & Data Structures/MazeSquare.cpp
-MazeSquare.h
-C:/Users/Finst/Desktop/Algorithms & Data Structures/MazeSquare.h
-iostream
--
-string
 -
 
 C:/Users/Finst/Desktop/Algorithms & Data Structures/MazeSquare.h

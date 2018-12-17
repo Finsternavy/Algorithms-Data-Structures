@@ -71,7 +71,7 @@ int main(){
     columns = 11;
 
     //Connect ofstream object to the output file
-    ofstream mazeOutput("output.file.txt");
+    ofstream mazeOutput("output_file.txt");
 
     //Prints the maze per the print function defined in MazeGenerator to verify code in console.
     newMaze.printMaze(rows, columns);
